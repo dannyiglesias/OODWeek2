@@ -4,19 +4,19 @@ public class pieOrder {
 		PieStore dStore = new DanPieStore();
 		PieStore eStore = new ErnPieStore();
  
-		Pie Pie = dStore.orderPie("Blueberry");
-		System.out.println("Brian ordered " + Pie + "\n");
+		Pie pie = dStore.orderPie("Blueberry");
+		System.out.println("Brian ordered " + pie + "\n");
  
-		Pie = eStore.orderPie("Apple");
-		System.out.println("Jeff ordered " + Pie + "\n");
+		pie = eStore.orderPie("Apple");
+		System.out.println("Jeff ordered " + pie + "\n");
 
-		Pie = dStore.orderPie("Lemon");
-		System.out.println("Kevin ordered " + Pie + "\n");
+		pie = dStore.orderPie("Lemon");
+		System.out.println("Kevin ordered " + pie + "\n");
  
-		Pie = eStore.orderPie("Pecan");
-		System.out.println("Chris ordered " + Pie + "\n");
+		pie = eStore.orderPie("Pecan");
+		System.out.println("Chris ordered " + pie + "\n");
 
-		Pie = eStore.orderPie("Cherry");
-		System.out.println("Glen ordered " + Pie + "\n");
+		pie = eStore.orderPie("Cherry");
+		System.out.println("Glen ordered " + pie + "\n");
 	}
 }
